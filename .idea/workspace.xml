@@ -57,7 +57,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.EstoqueTeste.adicionaEConsultaEstoque">
+  <component name="RunManager" selected="JUnit.EstoqueTeste.reservarReduzEstoqueELimita">
     <configuration name="EstoqueTeste.adicionaEConsultaEstoque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Junit" />
       <extension name="coverage">
@@ -69,6 +69,38 @@
       <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
       <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.EstoqueTeste" />
       <option name="METHOD_NAME" value="adicionaEConsultaEstoque" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testes_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendas.src.test.java.br.icev.vendas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
+      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.EstoqueTeste" />
+      <option name="METHOD_NAME" value="naoAceitaQuantidadeZeroOuNegativa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EstoqueTeste.reservarReduzEstoqueELimita" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testes_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendas.src.test.java.br.icev.vendas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
+      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.EstoqueTeste" />
+      <option name="METHOD_NAME" value="reservarReduzEstoqueELimita" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,28 +138,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTeste.naoPermitePrecoNegativoOuNulo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testes_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vendas.src.test.java.br.icev.vendas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
-      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.ProdutoTeste" />
-      <option name="METHOD_NAME" value="naoPermitePrecoNegativoOuNulo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EstoqueTeste.reservarReduzEstoqueELimita" />
+        <item itemvalue="JUnit.EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa" />
         <item itemvalue="JUnit.EstoqueTeste.adicionaEConsultaEstoque" />
         <item itemvalue="JUnit.ProdutoTeste.criaProdutoValido" />
         <item itemvalue="JUnit.ProdutoTeste.igualdadePorCodigo" />
-        <item itemvalue="JUnit.ProdutoTeste.naoPermitePrecoNegativoOuNulo" />
       </list>
     </recent_temporary>
   </component>
