@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b81cd3e-7913-430d-bbcb-79c9a3bacefe" name="Changes" comment="&lt;update&gt; corrigindo falhas de classes">
+    <list default="true" id="6b81cd3e-7913-430d-bbcb-79c9a3bacefe" name="Changes" comment="&lt;feat&gt; Adiciona na classe Estoque a verficação se estar disponível para compra">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Estoque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Estoque.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Produto.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,6 +43,8 @@
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
     "JUnit.EstoqueTeste.adicionaEConsultaEstoque.executor": "Run",
+    "JUnit.EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa.executor": "Run",
+    "JUnit.EstoqueTeste.reservarReduzEstoqueELimita.executor": "Run",
     "JUnit.ProdutoTeste.criaProdutoValido.executor": "Run",
     "JUnit.ProdutoTeste.igualdadePorCodigo.executor": "Run",
     "JUnit.ProdutoTeste.naoPermitePrecoNegativoOuNulo.executor": "Run",
@@ -141,8 +145,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.EstoqueTeste.reservarReduzEstoqueELimita" />
-        <item itemvalue="JUnit.EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa" />
         <item itemvalue="JUnit.EstoqueTeste.adicionaEConsultaEstoque" />
+        <item itemvalue="JUnit.EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa" />
         <item itemvalue="JUnit.ProdutoTeste.criaProdutoValido" />
         <item itemvalue="JUnit.ProdutoTeste.igualdadePorCodigo" />
       </list>
@@ -180,12 +184,30 @@
       <option name="project" value="LOCAL" />
       <updated>1763690387110</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="&lt;feat&gt; Adiciona na classe Estoque a adição">
+      <option name="closed" value="true" />
+      <created>1763690706747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1763690706747</updated>
+    </task>
+    <task id="LOCAL-00005" summary="&lt;feat&gt; Adiciona na classe Estoque a verficação se estar disponível para compra">
+      <option name="closed" value="true" />
+      <created>1763690871813</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1763690871813</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;feat&gt; Corrigindo erros de classes e fazendo a clase produto" />
     <MESSAGE value="&lt;update&gt; corrigindo falhas de classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;update&gt; corrigindo falhas de classes" />
+    <MESSAGE value="&lt;feat&gt; Adiciona na classe Estoque a adição" />
+    <MESSAGE value="&lt;feat&gt; Adiciona na classe Estoque a verficação se estar disponível para compra" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; Adiciona na classe Estoque a verficação se estar disponível para compra" />
   </component>
 </project>
