@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b81cd3e-7913-430d-bbcb-79c9a3bacefe" name="Changes" comment="&lt;feat&gt; Corrigindo erros de classes e fazendo a clase produto">
+    <list default="true" id="6b81cd3e-7913-430d-bbcb-79c9a3bacefe" name="Changes" comment="&lt;update&gt; corrigindo falhas de classes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Carrinho.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Estoque.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Estoque.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/GatewayPagamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/GatewayPagamento.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/excecoes/ErroPagamentoException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/excecoes/ErroPagamentoException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/excecoes/QuantidadeInvalidaException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/excecoes/QuantidadeInvalidaException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/excecoes/SemEstoqueException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/excecoes/SemEstoqueException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/test/java/br/icev/vendas/CarrinhoTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/test/java/br/icev/vendas/CarrinhoTeste.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/test/java/br/icev/vendas/EstoqueTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/test/java/br/icev/vendas/EstoqueTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,6 +40,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.EstoqueTeste.adicionaEConsultaEstoque.executor": "Run",
     "JUnit.ProdutoTeste.criaProdutoValido.executor": "Run",
     "JUnit.ProdutoTeste.igualdadePorCodigo.executor": "Run",
     "JUnit.ProdutoTeste.naoPermitePrecoNegativoOuNulo.executor": "Run",
@@ -64,7 +57,23 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ProdutoTeste.criaProdutoValido">
+  <component name="RunManager" selected="JUnit.EstoqueTeste.adicionaEConsultaEstoque">
+    <configuration name="EstoqueTeste.adicionaEConsultaEstoque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testes_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendas.src.test.java.br.icev.vendas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
+      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.EstoqueTeste" />
+      <option name="METHOD_NAME" value="adicionaEConsultaEstoque" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProdutoTeste.criaProdutoValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Junit" />
       <extension name="coverage">
@@ -115,6 +124,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.EstoqueTeste.adicionaEConsultaEstoque" />
         <item itemvalue="JUnit.ProdutoTeste.criaProdutoValido" />
         <item itemvalue="JUnit.ProdutoTeste.igualdadePorCodigo" />
         <item itemvalue="JUnit.ProdutoTeste.naoPermitePrecoNegativoOuNulo" />
@@ -137,26 +147,28 @@
       <option name="project" value="LOCAL" />
       <updated>1763689931960</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="&lt;update&gt; corrigindo falhas de classes">
+      <option name="closed" value="true" />
+      <created>1763690364780</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1763690364780</updated>
+    </task>
+    <task id="LOCAL-00003" summary="&lt;update&gt; corrigindo falhas de classes">
+      <option name="closed" value="true" />
+      <created>1763690387110</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1763690387110</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&lt;feat&gt; Corrigindo erros de classes e fazendo a clase produto" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; Corrigindo erros de classes e fazendo a clase produto" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/vendas/src/test/java/br/icev/vendas/ProdutoTeste.java</url>
-          <line>20</line>
-          <properties class="vendas.src.test.java.br.icev.vendas.ProdutoTeste" method="naoPermitePrecoNegativoOuNulo">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="&lt;update&gt; corrigindo falhas de classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;update&gt; corrigindo falhas de classes" />
   </component>
 </project>
