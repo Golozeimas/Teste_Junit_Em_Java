@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6b81cd3e-7913-430d-bbcb-79c9a3bacefe" name="Changes" comment="&lt;feat&gt; Adiciona na classe Estoque a função de reservar, passado já no testes">
-      <change beforePath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Estoque.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Estoque.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Produto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Carrinho.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/vendas/src/main/java/br/icev/vendas/Carrinho.java" afterDir="false" />
+    <list default="true" id="6b81cd3e-7913-430d-bbcb-79c9a3bacefe" name="Changes" comment="&lt;feat&gt; Adiciona na classe Carrinho a soma do subtotal">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Carrinho.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Testes_Junit/vendas/src/main/java/br/icev/vendas/Carrinho.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +41,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.CarrinhoTeste.acumulaQuantidadeMesmoCodigo.executor": "Run",
+    "JUnit.CarrinhoTeste.aplicaDescontoUmaUnicaVezENuncaNegativo.executor": "Run",
+    "JUnit.CarrinhoTeste.naoPermiteQuantidadeInvalida.executor": "Run",
+    "JUnit.CarrinhoTeste.somaItensComArredondamento.executor": "Run",
     "JUnit.EstoqueTeste.adicionaEConsultaEstoque.executor": "Run",
     "JUnit.EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa.executor": "Run",
     "JUnit.EstoqueTeste.reservarReduzEstoqueELimita.executor": "Run",
@@ -61,7 +64,7 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.CarrinhoTeste.acumulaQuantidadeMesmoCodigo">
+  <component name="RunManager" selected="JUnit.CarrinhoTeste.somaItensComArredondamento">
     <configuration name="CarrinhoTeste.acumulaQuantidadeMesmoCodigo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Junit" />
       <extension name="coverage">
@@ -78,7 +81,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EstoqueTeste.adicionaEConsultaEstoque" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarrinhoTeste.aplicaDescontoUmaUnicaVezENuncaNegativo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Junit" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +90,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
-      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.EstoqueTeste" />
-      <option name="METHOD_NAME" value="adicionaEConsultaEstoque" />
+      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.CarrinhoTeste" />
+      <option name="METHOD_NAME" value="aplicaDescontoUmaUnicaVezENuncaNegativo" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CarrinhoTeste.naoPermiteQuantidadeInvalida" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Testes_Junit" />
       <extension name="coverage">
         <pattern>
@@ -103,8 +106,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
-      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.EstoqueTeste" />
-      <option name="METHOD_NAME" value="naoAceitaQuantidadeZeroOuNegativa" />
+      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.CarrinhoTeste" />
+      <option name="METHOD_NAME" value="naoPermiteQuantidadeInvalida" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CarrinhoTeste.somaItensComArredondamento" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Testes_Junit" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vendas.src.test.java.br.icev.vendas.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
+      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.CarrinhoTeste" />
+      <option name="METHOD_NAME" value="somaItensComArredondamento" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -126,29 +145,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTeste.criaProdutoValido" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Testes_Junit" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vendas.src.test.java.br.icev.vendas.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="vendas.src.test.java.br.icev.vendas" />
-      <option name="MAIN_CLASS_NAME" value="vendas.src.test.java.br.icev.vendas.ProdutoTeste" />
-      <option name="METHOD_NAME" value="criaProdutoValido" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.CarrinhoTeste.somaItensComArredondamento" />
+        <item itemvalue="JUnit.CarrinhoTeste.naoPermiteQuantidadeInvalida" />
+        <item itemvalue="JUnit.CarrinhoTeste.aplicaDescontoUmaUnicaVezENuncaNegativo" />
         <item itemvalue="JUnit.CarrinhoTeste.acumulaQuantidadeMesmoCodigo" />
         <item itemvalue="JUnit.EstoqueTeste.reservarReduzEstoqueELimita" />
-        <item itemvalue="JUnit.EstoqueTeste.adicionaEConsultaEstoque" />
-        <item itemvalue="JUnit.EstoqueTeste.naoAceitaQuantidadeZeroOuNegativa" />
-        <item itemvalue="JUnit.ProdutoTeste.criaProdutoValido" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1763691053116</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="&lt;feat&gt; Adiciona na classe Carrinho a adição ao mesmo">
+      <option name="closed" value="true" />
+      <created>1763691609513</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1763691609513</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -217,6 +228,8 @@
     <MESSAGE value="&lt;feat&gt; Adiciona na classe Estoque a adição" />
     <MESSAGE value="&lt;feat&gt; Adiciona na classe Estoque a verficação se estar disponível para compra" />
     <MESSAGE value="&lt;feat&gt; Adiciona na classe Estoque a função de reservar, passado já no testes" />
-    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; Adiciona na classe Estoque a função de reservar, passado já no testes" />
+    <MESSAGE value="&lt;feat&gt; Adiciona na classe Carrinho a adição ao mesmo" />
+    <MESSAGE value="&lt;feat&gt; Adiciona na classe Carrinho a soma do subtotal" />
+    <option name="LAST_COMMIT_MESSAGE" value="&lt;feat&gt; Adiciona na classe Carrinho a soma do subtotal" />
   </component>
 </project>
